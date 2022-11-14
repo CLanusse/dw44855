@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lexxenddeca Regular";
+    src: url(./assets/fonts/LEXENDDECA-REGULAR.TTF);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lexxenddeca Regular", sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+/* ==== AJUSTES GENERALES ==== */
+
+.myButton {
+    background-color: orange;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.myButton--bgBlue {
+    background-color: blue;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+/* .position-alt {
+    position: relative;
+    top: 40px;
+    left: 30px;
+} */
+
+.p-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+}
+
+/* ==== HEADER ==== */
+
+.header {
+    background-color: bisque;
+    
+}
+
+.header .contenedor {
+    margin-top: 0;
+}
+
+.header__titulo {
+    font-size: 40px;
+}
+
+.header__navbar {
+    background-color: cadetblue;
+    position: relative;
+}
+
+.navbar__menuItem {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+
+    border-bottom: 2px solid white;
+    padding: .5rem 2rem;
+    margin-right: 2rem;
+
+    display: inline;
+}
+
+.navbar__menuItem--active {
+    color: orange;
+}
+
+
+/* ======== NOSOTROS INDEX ======== */ 
+.nosotros {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nosotros__title {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.nosotros__text {
+    font-size: 1.8rem;
+    display: inline;
+}
+
+/* == tarjeta producto == */
+
+.card {
+    width: 240px;
+    border: 2px solid grey;
+    /* margin: arriba derecha abajo izquierda ; */
+    /* margin: 2rem 1rem 4rem 1rem; */
+    /* margin: 2rem 4rem; */
+    margin: 4rem auto;
+    border-radius: 15px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card__description {
+    font-size: 1.4rem;
+}
+
+.card__price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card__button {
+    width: 100%;
+}
+
+.nosotros {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+/* ========= PAGINA CONTACTO ============ */
+
+/* ======= SECCION CONTACTO ========== */
+.contacto {
+   font-size: 24px; 
+}
