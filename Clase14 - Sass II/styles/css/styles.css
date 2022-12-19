@@ -265,6 +265,14 @@ h1, h2, h3, h4, h5, h6 {
   gap: 0;
 }
 
+.texto {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.texto p {
+  text-align: center;
+}
+
 .header {
   background-color: rgb(5, 46, 46);
   padding: 20px 0;
@@ -392,6 +400,27 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(6, 81, 81, 0.721);
   font-size: 15px;
   font-family: "Nerko One", cursive;
+}
+
+.nosotros {
+  background-color: aquamarine;
+  max-width: 900px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nosotros p {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  width: 60%;
+}
+.nosotros .nosotros__img {
+  width: 40%;
+}
+.nosotros .nosotros__img img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

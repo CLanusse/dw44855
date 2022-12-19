@@ -1,0 +1,28 @@
+
+
+.nosotros {
+    background-color: aquamarine;
+    max-width: 900px;
+    margin: 50px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+
+        width: 60%;
+    }
+
+    .nosotros__img {
+        width: 40%;
+    
+        img {
+            width: 100%;
+        }
+    }
+}
+
